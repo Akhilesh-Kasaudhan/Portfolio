@@ -1,5 +1,5 @@
 import React from "react";
-import picBg from "../assets/picBg.png";
+import picBg from "../assets/picbg.png";
 import userPic from "../assets/userPic.png";
 import TypeWriter from "typewriter-effect";
 const HeroSection = () => {
