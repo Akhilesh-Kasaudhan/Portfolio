@@ -4,8 +4,16 @@ import blogpic from "../assets/blog.png";
 import taskpic from "../assets/task.png";
 import pomopic from "../assets/pomo.png";
 import currency from "../assets/currency.png";
+import email from "../assets/email.png";
 
 const projects = [
+  {
+    title: "Email Verification Authentication System",
+    description:
+      "Email Verification Authentication System is a secure and scalable user authentication platform built with Node.js and Express.js on the backend, and React.js for the frontend. It leverages MongoDB for efficient data storage and Mailtrap to handle seamless email delivery for account verification.",
+    image: `${email}`,
+    link: "https://email-verification-cunning.netlify.app/",
+  },
   {
     title: "Blog Junction",
     description:
