@@ -1,4 +1,3 @@
-import React from "react";
 import picBg from "../assets/picbg.png";
 import userPic from "../assets/userPic.png";
 import TypeWriter from "typewriter-effect";
@@ -42,7 +41,7 @@ const HeroSection = () => {
           Developer | <br />
           Crafting Digital Experiences From Frontend to Backend
         </h4>
-        <a href="/Akhilesh_CV.pdf" download>
+        <a href="/Akhilesh_resume.pdf" download>
           <button className="mt-4 bg-gradient-to-r from-slate-600 to-zinc-700 text-white py-2 px-4 rounded hover:scale-[1.1]">
             Download CV
           </button>

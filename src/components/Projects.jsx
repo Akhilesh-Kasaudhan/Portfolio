@@ -1,12 +1,24 @@
-import React from "react";
-
 import blogpic from "../assets/blog.png";
 import taskpic from "../assets/task.png";
-import pomopic from "../assets/pomo.png";
-import currency from "../assets/currency.png";
 import email from "../assets/email.png";
+import blogjunction from "../assets/blogai.png";
+import codesage from "../assets/codesage.png";
 
 const projects = [
+  {
+    title: "BlogJunction.ai",
+    description:
+      "BlogJunction.ai is an AI-powered blogging platform where users can effortlessly generate, summarize, and publish high-quality blog content. Built using the MERN stack and integrated with generative AI, it offers features like rich-text editing, smart content suggestions, and SEO-friendly previews for a seamless writing experience.",
+    image: `${blogjunction}`,
+    link: "https://blogjunction-ai.netlify.app/",
+  },
+  {
+    title: "CodeSage AI",
+    description:
+      "CodeSage AI is a next-gen code reviewer that leverages artificial intelligence to analyze, review, and enhance your code in real-time. It provides instant feedback, suggestions for improvement, and optimized alternatives. Designed for developers, it's built with React.js and Tailwind CSS, offering a clean and interactive interface.",
+    image: `${codesage}`,
+    link: "https://codesageai.netlify.app/",
+  },
   {
     title: "Email Verification Authentication System",
     description:
@@ -27,20 +39,6 @@ const projects = [
       "A comprehensive task management system designed to streamline your workflow, with features such as task creation,assignment,updation",
     image: `${taskpic}`,
     link: "https://iwtodo.netlify.app/",
-  },
-  {
-    title: "Pomodoro Session",
-    description:
-      "Focused work session using the Pomodoro Technique to increase productivity and focus. ",
-    image: `${pomopic}`,
-    link: "https://pomodoroakhil.netlify.app/",
-  },
-  {
-    title: "Currency Converter",
-    description:
-      "A simple currency converter that allows users to convert one currency to another. It uses theAPI to fetch the latest currency rates.",
-    image: `${currency}`,
-    link: "https://currencycnvrtrakhil.netlify.app/",
   },
 ];
 
